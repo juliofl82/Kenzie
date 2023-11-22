@@ -1,0 +1,22 @@
+/* Estilize o título principal */
+/* Selecione o elemento <h1> no seu arquivo CSS e defina a cor de texto para azul (#0000ff).*/
+/* Selecione o elemento <span> e faça as seguintes definições, a cor de texto branco (#) e o fundo com uma cor tonalidade escura de azul (#0000ff).*/
+
+h1{color: blue;}
+span{color: #ffffff; background-color:#0000ff    ;}
+
+/* Estilize os elementos que tem a classe box: */
+/* ⁠Defina a cor de texto para azul (#001e32) */
+/* Defina o ⁠fundo com uma cor cinza-claro (#e3e3e3). */
+
+.box{color:#001e32; background-color:#e3e3e3;}
+
+
+/* Estilize o elemento que tem ID box2: */
+/* Selecione o ID box2 */
+/* Defina a cor de texto com uma tonalidade clara de cinza (#e3e3e3) */
+/* e o fundo com uma cor tonalidade escura de azul (#001e32). */
+
+#box2{color:#e3e3e3 ; background-color:#001e32 ;}
+
+

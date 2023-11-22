@@ -1,0 +1,18 @@
+
+
+<header class="content-main">
+  <h1 class="title-1">Aprenda do zero com nosso curso de programação</h1>
+  <p class="paragraph-1">Mesmo sem conhecimento prévio e mesmo sem dinheiro para investir.</p>
+</header>
+
+.content-main
+{max-width: 428px;}
+
+.title-1
+{font-size: 42px;line-height: 52px;color: #595d80;font-weight: 600;}
+
+.paragraph-1{font-size: 20px;line-height: 28px;font-weight: 400;color: red}
+
+
+
+

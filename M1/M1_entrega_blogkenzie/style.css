@@ -1,0 +1,64 @@
+/* Uma fonte externa deve ser importada e utilizada. */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+body { font-family: 'Roboto', sans-serif; }
+
+/* O background do cabeçalho deve estar com a cor diferente do background do restante da página. */
+/* A logo e o título do cabeçalho da página devem estar centralizados */
+
+header{
+    display: block;
+    padding: 10px;
+    background-color:rgb(188, 188, 255);
+    text-align:center ;
+    border: black solid;
+    margin: 5px;    
+}
+
+/* Para os posts é necessário criar uma estilização onde seja possível diferenciar cada um (podem ser configurados espaçamentos ou bordas). */
+
+.post div{
+    /* display: block; */
+    padding: 10px;
+    border: black solid;
+    margin: 2px;
+}    
+
+.post div a{
+    text-align: right;
+    display: block;
+}
+
+.post h2{
+    text-align: center;
+}
+/* O formulário deve possuir uma borda e um background estilizados com uma cor diferente do restante da página (no modelo foi utilizada a cor em hexadecimal #3590ff). */
+
+footer{
+    display: block;
+    padding: 10px;
+    border: black solid;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    
+}
+/* O input e o botão do formulário devem ser estilizados */
+
+.news{
+    box-sizing: content-box;
+    margin: auto;
+    width: 600px;
+    border: 1px yellow solid;
+    border-radius: 2px;
+    font-size: medium;
+    padding: 4px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+footer label{
+    font-size: medium;
+    padding: 5px;
+}

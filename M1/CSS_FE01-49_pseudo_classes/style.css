@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.card{
+    width: 400px;
+    height: 350px;
+    margin: 50px auto;
+    padding: 50px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    
+}
+
+.card-title{
+    text-align: center;
+    margin: 30px;
+    font-size: 30px; 
+    padding-bottom: 30px; 
+
+}
+
+.card-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.card-form label{
+    margin-bottom: 10px;
+    align-self: flex-start;
+    margin-left: 35px;
+    font-weight: bold;
+
+}
+
+.input-email{
+    background-color: #E9ECEF;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 0 15px;
+    height: 50px;
+    width: 300px;
+
+}
+
+.input-email:hover{
+    background:#DEE2E6 ;
+}
+
+.input-email:focus{
+    background: #ffffff;
+    border: 1px solid #fff;
+
+}
+
+.button-sign{
+    background: #1971c2;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    width: 300px;
+    height: 30px;
+    margin-top: 20px;   
+    cursor: pointer;
+    
+}
+
+.button-sign:hover{
+    background:#1864AB ;
+
+}
+
+.button-sign:focus{
+    border: 1px solid #000;
+}

@@ -1,0 +1,104 @@
+
+*{    
+    background-color: black;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Roboto', sans-serif; 
+    
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 50px;    
+    
+}
+
+.who{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+}
+
+.nav_menu{
+    display: flex;  
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 2px;
+    margin-top: 50px;
+    width: 1000px;
+    height: 200px;
+        
+}
+
+.perfil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5px;
+    list-style: none;
+     
+}
+
+
+.perfil img{
+    width: 40%;
+    height: 40%;
+    margin-bottom: 13px;
+    border-radius: 10px;
+            
+}
+
+.nav_menu div{
+    text-align: center;
+    padding: 10px;
+    
+}
+
+.nav_menu span{
+    color: gray;
+}
+
+
+
+#ger_perfil{
+    color: white;
+    width: 200px;
+    height: 60px;
+    margin-top: 20px;
+    border: 2px white solid;
+    font-size: 15px;
+}
+
+#ger_perfil:hover{
+    background: white;
+    color: black;
+    
+}
+
+
+
+.nav_menu .card:hover img {
+    border: 2px white solid;
+}
+
+.nav_menu .card:hover span {
+    color: white;
+}
+
+
+
+
+
+
+

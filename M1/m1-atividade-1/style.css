@@ -1,0 +1,29 @@
+
+.container_box{
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 5px;
+    border: 2px blue solid;
+    align-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    
+    
+
+    
+}
+
+.box{
+    /* max-height: 80%; */
+    height: 50px;
+    /* width: 48%; */
+    margin: 5px;
+    border: 2px red solid;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+      
+}

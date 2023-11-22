@@ -1,0 +1,70 @@
+/* Importe as fontes do Google Fonts:
+Nessa atividade usaremos duas fontes: "Open Sans" e "Rubik Mono One" disponibilizadas pelo Google Fonts. Para importá-las, use a regra @import abaixo, no início do seu arquivo CSS. */
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Rubik+Mono+One&display=swap");
+
+
+/* Estilize o corpo do documento.
+As seguintes instruções deverão ser aplicas para o elemento body:
+Defina a família de fonte para "Open Sans", sans-serif.
+Alinhe os textos ao centro, use a propriedade text-align como center.
+Defina cor do texto de seu documento para rgb(256, 256, 256).
+Como pano de fundo para nosso body, usaremos uma imagem, acrescente as seguintes linhas de código dentro do seletor body: */
+
+body{
+     font-family: "Open Sans", sans-serif; 
+     text-align: center; 
+     color:rgb(256, 256, 256);
+     background-image:url("https://smd-cms.nasa.gov/wp-content/uploads/2023/09/PIA12066_hires.jpg");}
+
+
+/* Estilize o título principal:
+Selecione a classe titulo-principal e aplique as seguintes regras de estilo:
+Defina a família de fonte para "Rubik Mono One", sans-serif.
+Defina o tamanho da fonte para 32px.
+A espessura da fonte deve ser 500 para torná-lo negrito.Defina o tamanho da linha para 2 para aumentar o espaçamento entre as linhas. */
+
+.titulo-principal{
+    font-family: "Rubik Mono One", sans-serif; 
+    font-size: 32px; 
+    font-weight: 500;
+    line-height: 2;
+    color: white;}
+
+/* Estilize o título secundário:
+Selecione a classe titulo-secundario e aplique as seguintes regras de estilo:
+Defina o tamanho da fonte para 22px. */
+
+.titulo-secundario{
+    font-size: 22px;}
+
+/* Estilize o span do título secundário:
+Selecione a classe span-titulo-secundario no seu arquivo CSS:
+Defina cor do texto de seu documento para rgb(254, 188, 50). */
+/* Estilize o link:
+⁠Selecione o elemento a no seu arquivo CSS:
+Defina cor do texto de seu documento para rgb(254, 188, 50). */
+
+.span-titulo-secundario,a{
+    color:rgb(254, 188, 50) ;}
+
+/* Estilize o link:
+⁠Selecione o elemento a no seu arquivo CSS:
+Defina cor do texto de seu documento para rgb(254, 188, 50). */
+
+
+/* Estilize o parágrafo do artigo:
+Selecione a classe paragrafo-titulo no seu arquivo CSS:
+O tamanho da fonte deve ser 18px.
+Defina a altura das linhas desse elemento para 1.5 para aumentar o espaçamento entre as linhas.
+Defina a propriedade text-align como justify para justificar o texto.
+Defina a propriedade opacity para 0.8 para tornar o texto ligeiramente transparente.
+Salve o arquivo CSS.
+Abra o arquivo HTML no navegador e verifique se os estilos foram aplicados corretamente aos elementos. */
+
+.paragrafo-titulo{
+    font: size 18px; 
+    line-height: 1.5; 
+    text-align: justify; 
+    opacity: 0.8;
+    color: white;}

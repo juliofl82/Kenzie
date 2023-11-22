@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade: Criando Formulário de Cadastro</title>
+</head>
+
+<body>
+<form action="cadastro">Cadastro<div></div>
+    <br>
+
+    <label for="nome">Nome</label><div></div>
+    <input type="text" name="nome" required placeholder="Digite seu nome aqui..."><div></div>
+    <br>
+
+    <label for="email">Email</label><div></div>  
+    <input type="email" name="email" required placeholder="Digite seu email aqui..."><div></div>
+    <br>
+
+    <label for="motivo">O que te motivou participar do envento?</label><div></div>
+    <textarea name="motivo" id="" cols="30" rows="10" placeholder="Descreva aqui..."></textarea><div></div>
+    <br>
+
+    <label for="modulos">Selecione seu módulo</label><div></div>
+    <select name="modulos" id="modulos" required>
+        <option value="">Selecione o Módulo</option>
+        <option value="modulo1">Módulo I</option>
+        <option value="modulo2">Módulo II</option>
+        <option value="modulo3">Módulo III</option>
+    </select><div></div>
+    <br>
+    
+    <label for="password">Cadastre uma senha</label><div></div>
+    <input type="password" required placeholder="Digite sua senha aqui..." name="password"><div></div>
+    <br>
+
+    <label for="confirmeasenha">Confirme a Senha</label><div></div>
+    <input type="password" required placeholder="Repita a senha..." name="confirmeasenha" id="password"><div></div>
+    <br>
+
+    <label for="novidades">Deseja receber novidades em seu email?</label><div></div>
+    <label for="sim">Sim</label>
+    <input type="radio" name="novidades" id="sim" required>
+    <label for="nao">Não</label>
+    <input type="radio" name="novidades" id="nao"> <div></div>
+    <br>
+    
+    <button>Cadastrar</button>
+
+</form>     
+</body>
+</html>
+
+
+

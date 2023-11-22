@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    justify-content: space-around;
+
+}
+
+.nav-menu{
+    border: 2px black solid;
+    width: 150px;
+    text-align: center;
+}
+
+.nav-menu:hover{
+
+    background: blue;
+    color: white;
+    border-radius: 10px;
+}
+
+
+
+
