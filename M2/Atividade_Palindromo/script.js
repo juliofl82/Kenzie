@@ -1,4 +1,4 @@
-function isPalindrome(str){
+function isPalindrome(str) {
     /* Seu código aqui */
     let palavraFrase = str.replace(/\s/g, '').toLowerCase();
     let comprimento = palavraFrase.length;
@@ -13,21 +13,21 @@ function isPalindrome(str){
 
 console.log(isPalindrome())
 
-function arrayMaxMin(arr){
+function arrayMaxMin(arr) {
     /* Seu código aqui */
 
     let min = arr[0];
     let max = arr[0];
 
-for(let i = 1; i < arr.length; i++) {
-    if ( arr[i] < min) {
-        min = arr[i];
+    for (let i = 1; i < arr.length; i++) {
+        if (arr[i] < min) {
+            min = arr[i];
+        }
+        if (arr[i] > max) {
+            max = arr[i];
+        }
     }
-    if ( arr[i] > max) {
-        max = arr[i];
-    }
-}
-return [min, max];
+    return [min, max];
 
 }
 
