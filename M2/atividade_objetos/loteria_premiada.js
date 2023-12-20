@@ -26,4 +26,4 @@ console.log(confereGanhador('amastor', '123.321.789-98'));
 console.log('Exercicio 1 e 2 - Foram recebidas ' + naoGanhador.length + ' solicitações de pessoas que não foram aprovadas como ganhadoras do premio');
 console.log(naoGanhador);
 
-TextDecoderStream
+
