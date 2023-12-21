@@ -9,7 +9,6 @@ let listaA = lista[0];
 let listaB = lista[1];
 
 
-
 function listaAParImpar() {
 
     let listaAPar = [];
@@ -44,5 +43,34 @@ function listaBResultados() {
     console.log('Exercicio 2 - O total de valores impares é ' + listaBSomaImpar + ' e corresponte a ' + percentual + '% do valor total de ' + listaBSomaTotal + ' da lista ' + listaB);    
 }
 listaBResultados()
+
+
+function confereLista(listaC, listaD) {
+
+    if (listaC.length !== 10) {
+        console.log('Lista C fora dos padrões. Deve conter 10 elementos') ;
+    }
+
+    for (let i = 0; i < listaC.length; i++) {
+        if (listaC[i] % 6 !== 0) {
+            console.log('Lista C. Valores não permitidos encontrados no indice');
+        }
+    }
+
+    if (listaD.length !== 10) {
+        console.log('Lista D fora dos padrões. Deve conter 10 elementos');
+    }
+
+    for (let i = 0; i < listaD.length; i++) {
+        if (listaD[i] % 5 !== 0) {
+            console.log('Lista D. Valores não permitidos encontrados no indice');
+        }
+    }
+}
+
+let listaC = [3, 8, 10, 35, 15, 22, 17, 12, 37, 40, 41];
+let listaD = [5, 9, 10, 35, 15, 22, 16, 6, 37, 40];
+
+console.log(confereLista(listaC, listaD));
 
 
