@@ -54,3 +54,57 @@ function avaliarAlunos(listaAlunos) {
     }
 }
 avaliarAlunos(listaAlunos);
+
+//////////////////////////////////////////////////////////////
+
+const onibus = {
+    capacidade: 40,
+    origem: 'Curitiba-PR',
+    destino: 'Rio de Janeiro-RJ',
+    paradas: [
+      'São Paulo-SP',
+      'Campinas-SP',
+      'São José dos Campos-SP',
+      'Volta Redonda-RJ'
+    ],
+    passageiros: [
+      {
+        nome: 'Luis da Silva',
+        rg: '1234567890',
+        bilhete: {
+          origem: 'Curitiba-PR',
+          destino: 'São José dos Campos-SP',
+          poltrona: 15,
+        }
+      },
+      {
+        nome: 'João da Silva',
+        rg: '1234567891',
+        bilhete: {
+          origem: 'São Paulo-SP',
+          destino: 'Rio de Janeiro-RJ',
+          poltrona: 16,
+        }
+      }
+    ]
+  }
+
+//    receber os pontos de parada do objeto onibus
+//    receber o ponto de destino de cada passageiros
+//    comparar e avisar o passageiro quando for o ponto de destino retornar em array
+
+function alertaDestino(onibus, paradaAtual) {
+    console.log("Paradas previstas para o ônibus:", onibus.paradas);
+
+    for (let j = 0; j < onibus.passageiros.length; j++) {
+        let passageiro = onibus.passageiros[j];
+        if (passageiro.bilhete.destino === paradaAtual) {
+            console.log(`${passageiro.nome}, sua parada (${paradaAtual}) chegou!`);
+        }
+    }
+}
+alertaDestino(onibus, 'São José dos Campos-SP');
+
+
+
+
