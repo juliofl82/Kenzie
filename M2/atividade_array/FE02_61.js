@@ -68,7 +68,7 @@ function confereLista(listaC, listaD) {
     }
 }
 
-let listaC = [3, 8, 10, 35, 15, 22, 17, 12, 37, 40, 41];
+let listaC = [3, 8, 10, 35, 15, 22, 17, 12, 37, 40,];
 let listaD = [5, 9, 10, 35, 15, 22, 16, 6, 37, 40];
 
 console.log(confereLista(listaC, listaD));
