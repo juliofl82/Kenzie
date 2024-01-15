@@ -15,13 +15,14 @@ function renderElements(tasks) {
   let ulElement = document.querySelector('.tasks__list');
   ulElement.innerHTML = '';
 
-  tasks.forEach(function (task) {
-    let taskItem = createTaskItem(task);
+  tasks.forEach(function (task, index) {
+    let taskItem = createTaskItem(task, index);
     ulElement.appendChild(taskItem);
   });
 }
+// renderElements(tasks);
 
-function createTaskItem(task) {
+function createTaskItem(task, index) {
   let li = document.createElement('li');
   li.className = 'task__item';
 
@@ -51,7 +52,8 @@ function createTaskItem(task) {
   let button = document.createElement('button');
   button.className = 'task__button--remove-task';
   button.addEventListener('click', function () {
-    li.remove();
+    tasks.splice(index, 1);
+    renderElements(tasks);
   });
   li.appendChild(taskInfoContainer);
   li.appendChild(button);
