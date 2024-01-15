@@ -11,26 +11,22 @@ const tasks = [
   { title: "Assistir a um documentário interessante", type: "Normal" },
 ];
 
-
 function renderElements(tasks) {
-  
-  let ulElement = document.querySelector('.tasks__list');  
+  let ulElement = document.querySelector('.tasks__list');
+  ulElement.innerHTML = '';
 
-  tasks.forEach(function(task) {
+  tasks.forEach(function (task) {
     let taskItem = createTaskItem(task);
     ulElement.appendChild(taskItem);
   });
-  
 }
 
-function createTaskItem(task){
-
+function createTaskItem(task) {
   let li = document.createElement('li');
   li.className = 'task__item';
 
   let taskInfoContainer = document.createElement('div');
   taskInfoContainer.className = 'task-info__container';
-
   let span = document.createElement('span');
   let taskTypeClass;
   switch (task.type.toLowerCase()) {
@@ -53,15 +49,33 @@ function createTaskItem(task){
   taskInfoContainer.appendChild(p);
 
   let button = document.createElement('button');
-  button.className = 'task__button--remove-task';  
-  button.addEventListener('click', function() {
+  button.className = 'task__button--remove-task';
+  button.addEventListener('click', function () {
     li.remove();
   });
   li.appendChild(taskInfoContainer);
   li.appendChild(button);
-
   return li;
-
 }
-
 renderElements(tasks);
+
+document.querySelector('.form__button--add-task').addEventListener('click', function () {
+
+  event.preventDefault();
+  let title = document.getElementById('input_title').value;
+  let type = document.getElementById('input_type').value;
+
+  if (title && type) {
+    let newTask = { title: title, type: type };
+    tasks.push(newTask)
+    renderElements(tasks);
+    document.getElementById('input_title').value = '';
+    document.getElementById('input_type').value = '';
+  } else {
+    alert('Preencha ambos os campos.');
+  }
+}
+);
+
+
+
