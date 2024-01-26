@@ -2,9 +2,9 @@
   width: 100%;
   height: 5rem;
   background-color: var(--grey-5);
-  /* position: sticky; */
-  /* top: 0; */
-  /* z-index: 1; */
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 
 .example__section {
@@ -38,8 +38,8 @@
   width: 30%;
   background-color: var(--grey-3);
   border-radius: var(--radius-1);
-  /* position: sticky; */
-  /* top: 6rem; */
+  position: sticky;
+  top: 6rem;
 }
 
 .blog__posts {
