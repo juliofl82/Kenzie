@@ -1,0 +1,27 @@
+
+/* cabeçalho */
+/* header {         
+    height: 100px;
+    padding: 20px 236px;
+    border-bottom: 2px solid rgba(76, 110, 245, 1);
+    display: flex;
+    justify-content: space-between; 
+    background: rgba(25, 28, 31, 1); 
+    border: red 2px solid;  
+} */
+    
+
+
+.header-container {
+    display: flex;
+    max-width: 1256px;     
+    height: 100px; 
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;    
+    border-bottom: 2px solid rgba(76, 110, 245, 1);
+    padding: 20px 236px;
+    background: rgba(25, 28, 31, 1);
+    justify-items: center;    
+}
+
