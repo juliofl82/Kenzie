@@ -1,5 +1,7 @@
 function procuraSobremesa(sobremesas, valorDoInput) {
   /* Desenvolva sua lógica a partir aqui */
-
-  return; /* É necessário retornar uma lista de produtos */
+  const resultados = sobremesas.filter((sobremesa) => sobremesa.nome.toLowerCase().includes(valorDoInput.toLowerCase()))
+  return resultados; 
 }
+const resultado = procuraSobremesa(listaDeSobremesas, valorDoInput);
+console.log(resultado);
