@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* Seção do HEADER */
+
+header {
+    height: 10vh; 
+    display: flex;    
+    justify-content: space-around;
+    align-items: center;       
+}
+
+/* Seção do formulário */
+
+.addTask_section {    
+    height: 20vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;    
+}
+
+.addTask_form {    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40vw;    
+    flex-direction: row;
+    flex-wrap: nowrap;  
+    background: rgba(248, 249, 250, 1); 
+    border-radius: 8px;      
+}
+
+#input_task {
+    border: none;
+    display: flex;    
+    justify-content: space-between;
+    width: 60vw;
+    height: 52px;
+    font-weight: 500;
+    font-size: 16px;
+    background: rgba(248, 249, 250, 1);
+    padding-left: 15px;           
+}
+
+#btn_input_task {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    width: 90px;    
+    border-radius: 8px;
+    background-color: rgba(54, 79, 199, 1); 
+    color: rgba(255, 255, 255, 1);    
+}
+
+/* Seção das tarefas */
+
+.task_section {
+    display: flex;
+    height: 70vh;       
+    justify-content: center;
+    align-items: center; 
+}
+
+#noTaskMessage {    
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+}
