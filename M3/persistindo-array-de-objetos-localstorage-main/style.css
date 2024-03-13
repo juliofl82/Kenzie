@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap')
+
+
 * {
     margin: 0;
     padding: 0;
@@ -81,6 +84,7 @@ header {
     height: 70vh;       
     justify-content: center;
     align-items: center; 
+    
 }
 
 #noTaskMessage {    
@@ -92,28 +96,43 @@ header {
 
 /* DIV das tarefas adicionadas */
 
-#taskListContainer {   
+#taskListContainer {
     display: flex;
-    height: 70vh;       
+    height: 70vh;
     justify-content: flex-start;
-    align-items: flex-start;    
-    width: 40vw;    
+    align-items: flex-start;
+    width: 40vw;
     flex-direction: column;
-    flex-wrap: nowrap;     
-    border-radius: 8px;    
+    flex-wrap: nowrap;
+    border-radius: 8px;   
+    margin-top: 30px;    
 }
 
-.tarefa {
-    /* border: blue 2px solid; */
+.tarefa {    
+    height: 52px;    
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    width: 100%;
-    background: rgba(248, 249, 250, 1);
-    padding: 10px;
+    flex-direction: row;
+    flex-wrap: nowrap; 
+    width: 40vw; 
+    background-color:rgba(241, 243, 245, 1);
+    margin-bottom: 10px;    
     border-radius: 8px;
-    margin-top: 10px;
+     
+}
+.tarefa span {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 40vw;
+    height: 52px;
+    border-radius: 8px;
+    padding-left: 15px;
+    background-color:rgba(241, 243, 245, 1); 
+    font-family: "IBM Plex Sans", sans-serif; 
+
+
 }
 
 .btnExcluir {
@@ -121,10 +140,11 @@ header {
     justify-content: center;
     align-items: center;
     height: 35px;
-    width: 50px;    
+    width: 60px;    
     border-radius: 8px;
     background-color: rgba(222, 226, 230, 1);
     color:rgba(73, 80, 87, 1);
     border: none;
+    margin-right: 10px;
 
 }
