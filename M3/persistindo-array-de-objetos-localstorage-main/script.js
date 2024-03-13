@@ -3,12 +3,12 @@
 // Adicionando Event Listeners
 document.addEventListener('DOMContentLoaded', () => {
     carregarTarefas();
-    document.getElementById('writeMyTask_form').addEventListener('submit', function(event) {
+    document.getElementById('writeMyTask_form').addEventListener('submit', function (event) {
         event.preventDefault();
         const inputTask = document.getElementById('input_task');
         if (inputTask.value.trim()) {
             adicionarTarefa(inputTask.value.trim());
-            inputTask.value = ''; 
+            inputTask.value = '';
         }
     });
 });
@@ -16,13 +16,6 @@ document.addEventListener('DOMContentLoaded', () => {
 // Manipulando tarefas
 
 let tarefas = [];
-
-// function adicionarTarefa(texto) {
-//     const tarefa = { id: Date.now(), texto, concluida: false };
-//     tarefas.push(tarefa);
-//     atualizarLocalStorage();
-//     renderizarTarefas();
-// }
 
 function adicionarTarefa(texto) {
     const tarefa = { id: Date.now(), texto, concluida: false };
@@ -69,7 +62,7 @@ function renderizarTarefas() {
             const btnExcluir = document.createElement('button');
             btnExcluir.textContent = 'Excluir';
             btnExcluir.className = 'btnExcluir';
-            btnExcluir.onclick = function() { removerTarefa(tarefa.id); };
+            btnExcluir.onclick = function () { removerTarefa(tarefa.id); };
 
             tarefaDiv.appendChild(btnExcluir);
             container.appendChild(tarefaDiv);

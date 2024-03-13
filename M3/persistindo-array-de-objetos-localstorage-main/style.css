@@ -122,17 +122,14 @@ header {
      
 }
 .tarefa span {
-    display: flex;
-    justify-content: left;
+    display: flex;    
     align-items: center;
     width: 40vw;
     height: 52px;
     border-radius: 8px;
     padding-left: 15px;
     background-color:rgba(241, 243, 245, 1); 
-    font-family: "IBM Plex Sans", sans-serif; 
-
-
+    font-family: "IBM Plex Sans", sans-serif;
 }
 
 .btnExcluir {
@@ -146,5 +143,4 @@ header {
     color:rgba(73, 80, 87, 1);
     border: none;
     margin-right: 10px;
-
 }
