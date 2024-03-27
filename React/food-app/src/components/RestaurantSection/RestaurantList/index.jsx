@@ -1,9 +1,12 @@
+import { restaurants } from "../../../data/restaurant"
 import { RestaurantCard } from "./RestaurantCard"
 
 export const RestaurantList = () => {
     return(
         <ul>
-            <RestaurantCard/>
+            {restaurants.map(restaurant => (
+                <RestaurantCard key={restaurant.id} restaurant={restaurant} />
+            ))}            
         </ul>
     )
 }

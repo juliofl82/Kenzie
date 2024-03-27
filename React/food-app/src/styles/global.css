@@ -1,0 +1,15 @@
+:root {
+    --font-primary: "Montserrat", sans-serif;
+    --font-secondary: "Inter", sans-serif;
+
+    --color-bege: rgba(234, 222, 206, 1);
+    --color-green: rgba(42, 100, 92, 1);
+    --color-orange: rgba(227, 81, 42, 1);
+    --color-black: rgba(0, 0, 0, 1);
+    --color-white: rgba(255, 255, 255, 1);
+    --color-white50: rgba(255, 255, 255, 5);
+}
+
+body {
+    background-color: var(--color-bege);
+}

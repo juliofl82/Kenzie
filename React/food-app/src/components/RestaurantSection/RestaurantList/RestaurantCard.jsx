@@ -1,9 +1,11 @@
-export const RestaurantCard = () => {
-    return(
+import { restaurants } from "../../../data/restaurant"
+
+export const RestaurantCard = ({ restaurant }) => {
+    return (
         <li>
-            <img src="" alt="" />
-            <h3>Titulo e Descrição</h3>
-            <p>Lorem ipsum dolor sit amet</p>
+            <img src={restaurant.image} alt={restaurant.name} />
+            <h3 className="title white sm">{restaurant.name}</h3>
+            <p className="paragraph white card">{restaurant.description}</p>
         </li>
     )
 }

@@ -1,0 +1,52 @@
+.title {
+    font-family: var(--font-primary);
+    font-weight: 700;
+    line-height: 1.4;
+}
+
+.title.sm {
+    font-size: 1.5rem;
+}
+
+.title.md {
+    font-size: 3.125rem;
+}
+
+.title.lg {
+    font-size: 2.875rem;
+}
+
+.title.black {
+    color: var(--color-black);
+}
+
+.title.white {
+    color: var(--color-white);
+}
+
+.title.orange {
+    color: var(--color-orange);
+}
+
+.title.center {
+    text-align: center;
+}
+
+.paragraph {
+    font-family: var(--font-secondary);
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 2rem;
+}
+
+.paragraph.black {
+    color: var(--color-black);
+}
+
+.paragraph.white {
+    color: var(--color-white);
+}
+
+.paragraph.card {
+    font-size: 1rem;
+}
