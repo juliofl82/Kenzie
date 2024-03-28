@@ -1,0 +1,10 @@
+.restaurantSection h2{
+    margin-top: .9375rem;
+    margin-bottom: 3.125rem;
+}
+
+@media (min-width: 950px) {
+    .flexBox {
+        flex-direction: row;
+    }
+}
