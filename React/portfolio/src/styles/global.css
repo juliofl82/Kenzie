@@ -1,0 +1,15 @@
+:root {
+    --font-primary:"Inter", sans-serif;
+
+    --color-primary: rgba(104, 128, 255, 1);
+    --color-primaryHover: rgba(124, 145, 255, 1);
+    --color-white: rgba(255, 255, 255, 1);
+    --color-black: rgba(0, 0, 0, 1);
+
+}
+
+body {
+    background-color: var(--color-black);
+    color: var(--color-white);
+    font-family: var(--font-primary);
+}
