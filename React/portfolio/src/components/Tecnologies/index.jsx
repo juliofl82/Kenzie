@@ -2,8 +2,13 @@ export const Tecnologies = () => {
     return (
         <section>
             <div className="container">
-                <h3>Section tecnologies</h3>
-            </div>            
+                <div>
+                    <h2>Tecnologias</h2>
+                </div>
+                <div>
+                    {/* cards */}
+                </div>
+            </div>
         </section>
     )
 }

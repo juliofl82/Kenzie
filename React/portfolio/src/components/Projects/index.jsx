@@ -2,7 +2,12 @@ export const Projects = () => {
     return(
         <section>
             <div className="container projects">
-                <h3>section projects</h3>
+                <div>
+                    <h2>Projetos</h2>
+                </div>
+                <div>
+                    {/* cards */}
+                </div>                
             </div>            
         </section>        
     );

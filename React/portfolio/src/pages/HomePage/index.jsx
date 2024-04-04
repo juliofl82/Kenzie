@@ -12,8 +12,8 @@ export const HomePage = () => {
             <main>
                 <BannerSection />
                 <AboutMe />
-                <Projects />
                 <Tecnologies />
+                <Projects />                
                 <Footer />
             </main>
         </>

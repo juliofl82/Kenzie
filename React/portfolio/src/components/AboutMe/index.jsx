@@ -1,9 +1,14 @@
 export const AboutMe = () => {
-    return(
+    return (
         <section>
             <div className="container aboutMe">
-                <h3>section about me</h3>
-            </div>            
+                <div>
+                    <h2>Sobre mim</h2>
+                </div>
+                <div>
+                    <p className="aboutMe-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis sapiente iusto quisquam delectus cupiditate aliquid libero, error vero blanditiis autem neque atque modi odio quis. Ad delectus laboriosam placeat.</p>
+                </div>
+            </div>
         </section>
     );
 };

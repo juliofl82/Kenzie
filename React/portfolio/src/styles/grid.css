@@ -15,10 +15,18 @@
 }
 
 .container.aboutMe {
+    display: flex;
+    justify-content: space-between;
     height: 9.375rem;    
 }
 
+.aboutMe-paragraph{
+    width: 38.4375rem;
+}
+
 .container.bannerSection {
+    display: flex;
+    justify-content: space-between;
     height: 17.375rem;
 }
 
@@ -27,12 +35,15 @@
 }
 
 .container.footer {
-    height: 11.875rem;    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 11.875rem;         
 }
 
 .menuStyle {
     display: flex;
     justify-content: space-around;
     width: 15.75rem;
-    height: 1.0625rem;
+    height: 1.0625rem;    
 }
