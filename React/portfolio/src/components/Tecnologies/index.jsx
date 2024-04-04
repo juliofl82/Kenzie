@@ -3,7 +3,7 @@ export const Tecnologies = () => {
         <section>
             <div className="container">
                 <div>
-                    <h2>Tecnologias</h2>
+                    <h2 className="title2">Tecnologias</h2>
                 </div>
                 <div>
                     {/* cards */}

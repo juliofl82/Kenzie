@@ -1,0 +1,52 @@
+.title {
+    font-family: var(--font-primary);
+    font-weight: 700;
+    line-height: 1.75rem;
+    size: 3.25rem;    
+}
+
+.title2 {
+    font-family: var(--font-primary);
+    font-weight: 600;
+    line-height: 1.625rem;
+    size: 2.25rem;     
+}
+
+.title3 {
+    font-family: var(--font-primary);
+    font-weight: 700;
+    line-height: 1.5rem;
+    size: 1.375rem;
+}
+
+.label {
+    font-family: var(--font-primary);
+    font-weight: 400;
+    line-height: 1.375rem;
+    size: .875rem;
+    color: var(--color-primary);
+}
+
+.link {
+    font-family: var(--font-primary);
+    font-weight: 700;
+    line-height: 1.125rem;
+    size: 1rem;
+    color: var(--color-link);
+}
+
+.paragraph {
+    font-family: var(--font-primary);
+    font-weight: 400;
+    line-height: 1.125rem;
+    size: 1rem;
+}
+
+.btn_font {
+    font-family: var(--font-primary);
+    font-weight: 600;
+    line-height: 1.0625rem;
+    size: .875rem;
+    /* align-self: center;    */
+    
+}

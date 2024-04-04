@@ -3,7 +3,7 @@ export const Header = () => {
         <header>
             <div className="container header">
                 <div>
-                    <h1>Portfólio</h1>
+                    <h1 className="title">Portfólio</h1>
                 </div>
                 <div>
                     <ul className="menuStyle">
@@ -13,7 +13,7 @@ export const Header = () => {
                     </ul>
                 </div>
                 <div>
-                    <button type="button" className="btn">Contato</button>                    
+                    <button type="button" className="btn btn_font">Contato</button>                    
                 </div>
             </div>
         </header>

@@ -5,9 +5,9 @@ export const BannerSection = () => {
         <section>
             <div className="container bannerSection">
                 <div>
-                    <p>Júlio Figueiredo Lamounier</p>
-                    <h2>Bem vindo ao meu portfólio</h2>
-                    <p>Uma frase interessante sobre mim</p>
+                    <p className="paragraph">Júlio Figueiredo Lamounier</p>
+                    <h2 className="title2">Bem vindo ao meu portfólio</h2>
+                    <p className="paragraph">Uma frase interessante sobre mim</p>
                     <button type="button" className="btn">Saiba mais</button>
                 </div>
                 <div>

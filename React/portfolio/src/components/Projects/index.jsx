@@ -1,12 +1,14 @@
+import { ProjectsList } from "./ProjectList";
+
 export const Projects = () => {
     return(
         <section>
             <div className="container projects">
                 <div>
-                    <h2>Projetos</h2>
+                    <h2 className="title2">Projetos</h2>
                 </div>
                 <div>
-                    {/* cards */}
+                    < ProjectsList/>
                 </div>                
             </div>            
         </section>        
