@@ -1,12 +1,11 @@
+import { TechnologiesList } from "./TecList";
+
 export const Tecnologies = () => {
     return (
         <section>
-            <div className="container">
+            <div className="container">                
                 <div>
-                    <h2 className="title2">Tecnologias</h2>
-                </div>
-                <div>
-                    {/* cards */}
+                    <TechnologiesList/>
                 </div>
             </div>
         </section>
