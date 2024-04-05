@@ -1,0 +1,42 @@
+.cardBox {
+    display: flex;    
+    max-width: 27.4375rem;
+    width: 100vw;
+    height: 183px;
+    justify-content: space-between;    
+    border: 1px solid var(--color-white);
+    border-radius: 25px;
+    margin-bottom: 1.25rem;    
+}
+
+.liBox {
+    display: flex;
+    flex-direction: column;
+    height: 100%;    
+    margin-left: 1.25rem;
+    align-items: start;
+    padding: 15px 10px;
+}
+
+.liBox h2 {
+    margin-bottom: 1.875rem;
+}
+
+.p {
+    margin-bottom: 3.125rem;
+}
+
+.saibaMais {
+    
+}
+
+.imgBox {
+    display: flex;
+    align-self: start;
+    padding: 15px 10px;    
+}
+
+.imgVector {
+    max-height: 2.375rem;
+    max-width: 2.3125rem;
+}

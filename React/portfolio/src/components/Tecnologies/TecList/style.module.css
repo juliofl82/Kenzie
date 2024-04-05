@@ -1,0 +1,15 @@
+.listBox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 100%;    
+}
+
+.h2container {    
+    margin-top: 50px;
+    padding-bottom: 1.25rem;
+}
+
+
+
+

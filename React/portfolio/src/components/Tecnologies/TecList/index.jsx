@@ -1,15 +1,21 @@
 import { technologies } from "../../../data/technologies";
 import { TecCard } from "./TecCard/TechCard";
+import styles from "./style.module.css";
 
 export const TechnologiesList = () => {
     return (
-        <div>
-            {technologies.map(technologie => (
-                // Certifique-se de que cada TecCard está dentro de um div se isso for necessário para sua estilização ou estrutura de layout
+        <>
+        <div className={styles.h2container}>
+            <h2 className="title2">Tecnologias</h2>
+        </div>
+
+        <div className={styles.listBox}>
+            {technologies.map(technologie => (                
                 <div key={technologie.name}>
                     <TecCard technologie={technologie} />
                 </div>
             ))}
         </div>
+        </>
     );
 };

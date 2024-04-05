@@ -5,7 +5,7 @@ export const Tecnologies = () => {
         <section>
             <div className="container">                
                 <div>
-                    <TechnologiesList/>
+                    <TechnologiesList />
                 </div>
             </div>
         </section>

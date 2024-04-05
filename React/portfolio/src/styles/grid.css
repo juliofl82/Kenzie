@@ -9,9 +9,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 2.4375rem;   
-    /* padding-top: 17px;  */
-    gap: 229px;
+    height: 2.4375rem;    
 }
 
 .container.aboutMe {
@@ -26,8 +24,7 @@
 
 .container.bannerSection {
     display: flex;
-    justify-content: space-between;
-    height: 17.375rem;
+    justify-content: space-between;    
 }
 
 .container.projects {
@@ -38,7 +35,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 11.875rem;         
+    height: 11.875rem;  
+    margin: 70px auto;
+    border-bottom: 1px solid white;  
+    border-top: 1px solid white;     
 }
 
 .menuStyle {

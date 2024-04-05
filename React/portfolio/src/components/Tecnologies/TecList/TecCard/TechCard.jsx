@@ -1,10 +1,13 @@
 import { technologies } from "../../../../data/technologies";
+import styles from "./style.module.css";
 
-export const TecCard = ({technologie}) => {
-    return(
+export const TecCard = ({ technologie }) => {
+    return (
         <>
-        <img src={technologie.img} alt="Imagem" />
-        <h3>{technologie.name}</h3>        
+            <div className={styles.TechBox}>
+                <img src={technologie.img} alt="Imagem" />
+                <h3>{technologie.name}</h3>
+            </div>
         </>
     )
 }
