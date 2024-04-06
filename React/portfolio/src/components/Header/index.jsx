@@ -1,12 +1,14 @@
+import styles from "./style.module.css"
+
 export const Header = () => {
     return (
         <header>
-            <div className="container header">
+            <div className={styles.containerHeader}>
                 <div>
                     <h1 className="title">Portfólio</h1>
                 </div>
                 <div>
-                    <ul className="menuStyle">
+                    <ul className={styles.menuStyle}>
                         <li>Sobre</li>
                         <li>Stack</li>
                         <li>Projetos</li>

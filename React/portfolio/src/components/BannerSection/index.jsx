@@ -5,7 +5,7 @@ import { username } from "../../data/user"
 export const BannerSection = () => {
     return (
         <section className={styles.bannerBox}>
-            <div className="container bannerSection">
+            <div className={styles.containerBannerSection}>
                 <div className={styles.perfil}>
                     <p className={`paragraph ${styles.username}`}  >{username}</p>
                     <div className={styles.boxH2}>

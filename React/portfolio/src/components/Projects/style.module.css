@@ -1,0 +1,13 @@
+.containerProjects {
+    display: flex;
+    flex-direction: column;    
+    height: auto;
+    margin: 0 auto;
+    max-width: 62.25rem;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .containerProjects {
+        padding: 10px 10px;
+    }
+}

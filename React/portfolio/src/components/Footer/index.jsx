@@ -5,7 +5,7 @@ import {user} from "../../data/user"
 export const Footer = () => {
     return (
         <footer >
-            <div className="container footer">
+            <div className={styles.containerFooter}>
                 <div>
                     <h2 className='title2'>Contato</h2>
                     <div className={styles.imgSocial}>

@@ -1,0 +1,19 @@
+.containerAboutMe {
+    display: flex;
+    justify-content: space-between;    
+    height: 100%;  
+    max-width: 62.25rem;
+    margin: 0 auto;
+}
+
+.aboutMeParagraph{    
+    max-width: 38.4375rem;      
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .containerAboutMe{
+        display: flex;
+        flex-direction: column;
+        padding: 10px 10px;
+    }
+}

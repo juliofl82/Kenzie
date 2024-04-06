@@ -4,18 +4,17 @@ import styles from "./style.module.css";
 
 export const TechnologiesList = () => {
     return (
-        <>
-        <div className={styles.h2container}>
-            <h2 className="title2">Tecnologias</h2>
+        <div className={styles.techGrid}>
+            <div className={styles.h2container}>
+                <h2 className="title2">Tecnologias</h2>
+            </div>
+            <div className={styles.listBox}>
+                {technologies.map(technologie => (
+                    <div key={technologie.name}>
+                        <TecCard technologie={technologie} />
+                    </div>
+                ))}
+            </div>
         </div>
-
-        <div className={styles.listBox}>
-            {technologies.map(technologie => (                
-                <div key={technologie.name}>
-                    <TecCard technologie={technologie} />
-                </div>
-            ))}
-        </div>
-        </>
     );
 };

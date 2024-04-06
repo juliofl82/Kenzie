@@ -1,0 +1,35 @@
+.containerHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 62.25rem;
+    padding-top: 20px; 
+    margin: 0 auto;        
+}
+
+@media (min-width: 320px) and (max-width: 767px) { 
+    .containerHeader {
+        flex-direction: column; 
+        justify-content: space-between; 
+        align-items: center;   
+        width: 16rem;            
+    }
+}
+
+.menuStyle {
+    display: flex;
+    justify-content: space-around;
+    width: 15.75rem;
+    height: 1.0625rem;    
+}
+
+@media (max-width: 768px) {
+    .menuStyle {
+        display: flex;
+    justify-content: space-around;
+    width: 15.75rem;
+    height: 1.0625rem; 
+    margin: 20px 0;
+    }
+}

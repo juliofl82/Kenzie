@@ -1,3 +1,11 @@
+.containerBannerSection {
+    display: flex;
+    justify-content: space-between;
+    max-width: 996px;   
+    width: 100%;
+    margin: 0 auto;    
+}
+
 .bannerBox {
     display: flex;
     padding: 40px 0;
@@ -21,5 +29,20 @@
 
 .username {
     color: var(--color-primary);
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .containerBannerSection {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 10px 10px;        
+    }
+
+    .imgGrid {
+        height: 11.6875rem;
+        width: 19.3125rem;        
+        margin: 25px auto;
+    }
 }
 
