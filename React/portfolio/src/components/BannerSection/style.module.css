@@ -19,3 +19,7 @@
     width: 27.375rem;
 }
 
+.username {
+    color: var(--color-primary);
+}
+

@@ -1,5 +1,6 @@
 import SocialIcons from '../../assets/SocialIcons.svg'
 import styles from "./style.module.css"
+import {user} from "../../data/user"
 
 export const Footer = () => {
     return (
@@ -12,7 +13,7 @@ export const Footer = () => {
                     </div>
                 </div>
                 <div>
-                    <p className='paragraph'>Todos os direitos reservados - Júlio Figueiredo</p>
+                    <p className='paragraph'>Todos os direitos reservados - {user}</p>
                 </div>
 
             </div>
