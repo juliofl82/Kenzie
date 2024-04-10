@@ -1,11 +1,10 @@
 import { useState } from 'react'
+import { RegisterForm } from './components/RegisterForm'
 
 function App() {
-  
-
   return (
     <>
-      <h3>teste 2</h3>
+      <RegisterForm />
     </>
   )
 }
