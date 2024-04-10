@@ -1,8 +1,0 @@
-.listProjects {
-    display: flex;       
-    flex-wrap: wrap;
-    justify-content: space-between;    
-    width: 100%;
-    /* height: 385px; */
-    padding-top: 1.875rem;       
-}
