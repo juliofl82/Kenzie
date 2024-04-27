@@ -9,3 +9,4 @@ export const FruitProvider = ({children}) => {
         </FruitContext.Provider>
     );
 }
+
