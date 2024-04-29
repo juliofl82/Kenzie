@@ -1,10 +1,9 @@
+import { useContext } from "react";
+import { FruitContext } from "../../providers/FruitContext";
 import { FruitCard } from "./FruitCard";
 
-export const FruitList = ({fruitList, setFruitList}) => {
-    const removeFruit = (fruitId) => {
-        const newFruitList = fruitList.filter(fruit => fruit.id !== fruitId);
-        setFruitList(newFruitList);
-    }
+export const FruitList = () => {
+    const { fruitList, removeFruit} = useContext(FruitContext);    
 
     return(
         <ul>
