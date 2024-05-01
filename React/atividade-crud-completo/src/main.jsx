@@ -8,7 +8,7 @@ const root = createRoot(container); // Cria a raiz do aplicativo React
 
 root.render(
   <React.StrictMode>
-    <TodoProvider>       // Inclui TodoProvider aqui
+    <TodoProvider>       
       <App />
     </TodoProvider>
   </React.StrictMode>
