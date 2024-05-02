@@ -1,16 +1,11 @@
-import React from 'react';
-import { createRoot } from 'react-dom/client';
-import App from './App';
-import { TodoProvider } from './providers/TodoProvider';
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import App from './App.jsx'
 
-const container = document.getElementById('root');
-const root = createRoot(container); // Cria a raiz do aplicativo React
 
-root.render(
+ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <TodoProvider>       
-      <App />
-    </TodoProvider>
-  </React.StrictMode>
-);
+    <App />
+  </React.StrictMode>,
+)
 
