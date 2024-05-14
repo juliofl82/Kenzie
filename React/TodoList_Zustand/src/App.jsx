@@ -1,12 +1,15 @@
-import { useState } from 'react'
-
+import React from 'react';
+import TodoCreateForm from './components/TodoCreateForm/TodoCreateForm.jsx';
+import TodoList from './components/TodoList/todoList.jsx';
 
 function App() {
-  
-
   return (
-    <h1>teste React</h1>
-  )
+    <div className="App">
+      <TodoCreateForm />
+      <TodoList/>
+      {/* Outros componentes */}
+    </div>
+  );
 }
 
-export default App
+export default App;
