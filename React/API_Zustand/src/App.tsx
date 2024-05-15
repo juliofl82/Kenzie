@@ -1,5 +1,5 @@
-import React from 'react'
-import { useState } from 'react'
+import React from 'react';
+import NewsList from './components/NewsList/NewsList';
 
 
 function App() {
@@ -7,7 +7,8 @@ function App() {
 
   return (
     <>
-    <h1>teste2</h1>
+      <h1>Notícias</h1>
+      <NewsList />
     </>
 
   )
