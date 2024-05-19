@@ -1,7 +1,7 @@
 import { create } from 'zustand';
 import { fetchUserProfile, createTech, updateTech, deleteTech } from '../api/Api';
 
-const useStore = create((set) => ({
+const useStore = create((set, get) => ({
   user: null,
   techs: [],
   isModalOpen: false,  // Estado do modal
@@ -13,6 +13,13 @@ const useStore = create((set) => ({
 
   addTech: async (newTech) => {
     try {
+      const state = get();
+      // Verificação para garantir que a tecnologia não está sendo adicionada repetidamente
+      const existingTech = state.techs.find((tech) => tech.title === newTech.title);
+      if (existingTech) {
+        throw new Error('User Already have this technology created, you can only update it');
+      }
+
       const createdTech = await createTech(newTech);
       set((state) => {
         const updatedTechs = [...state.techs, createdTech];
@@ -21,6 +28,7 @@ const useStore = create((set) => ({
       });
     } catch (error) {
       console.error('Erro ao adicionar tecnologia:', error);
+      throw error;
     }
   },
 
@@ -70,6 +78,13 @@ const useStore = create((set) => ({
 }));
 
 export default useStore;
+
+
+
+
+
+
+
 
 
 
